@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Story of Asher</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body,h1 {font-family: "Lato", sans-serif}
+.bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="top">
+  <div class="bar red card left-align large">
+    <a class="bar-item button hide-medium hide-large right padding-large hover-white large red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="bar-block white hide hide-large hide-medium large">
+  </div>
+</div>
+
+<!-- Header -->
+<header class="container red center" style="padding:128px 16px">
+  <h1 class="margin jumbo">We Are Here For You</h1>
+  <button class="button black padding-large large margin-top">Story of Asher</button>
+</header>
+
+<!-- First Grid -->
+<div class="row-padding padding-64 container">
+  <div class="content">
+    <div class="twothird">
+      <h1>Story of Asher</h1>
+      <h5 class="padding-32">This is my son, Asher.  He just turned 9 at the end of July.  And he has been battling a brain tumor since being diagnosed in January of this year.  Our family has found shelter in our faith and hope, we’ve been supported by love, compassion, and care, much of that through the amazing people of Saint. Jude.  So when I tell you that Saint Jude is a great charity to donate to, I’m telling you from first-hand experience, having seen where the money goes
+        </h5>
+
+      <p class="text-grey">First, they got us in the door as fast as possible.  They paid for Asher and his mother to fly from Charlotte to Memphis.  They put us up in housing on campus for the first week, and through one of their many partners (in our case Ronald McDonald House) they put us up in long-term housing.  They setup different arrangements for different needs.  Many patients need treatment for months, and St Jude finds a place for them, at no cost to the family.  They have shuttles that run between the off campus housing locations, as well as to some local shopping destinations, such as the grocery store.  They provide a stipend to help cover the cost of food for the families.  They have an onsite school that will work with your child’s school to help your child not fall behind.  And they have countless family friendly activities and events throughout the week.  A lot of the charity partners handle these events on their own. 
+        </p>
+    </div>
+
+    <div class="third center">
+      <i class="fa fa-anchor padding-64 text-red"></i>
+    </div>
+  </div>
+</div>
+
+<!-- Second Grid -->
+<div class="row-padding light-grey padding-64 container">
+  <div class="content">
+    <div class="third center">
+      <i class="fa fa-coffee padding-64 text-red margin-right"></i>
+    </div>
+
+    <div class="twothird">
+      <h1>The St. Jude Way</h1>
+      <h5 class="padding-32">They offer world-class cancer treatment, including access to clinical trials.  The doctors are scientists with their own boots on the ground.  When we were weighing out clinical trial options for our son, we were speaking with the doctors who were both leading the studies, and also treating my son.  I didn’t feel like he was a patient to one doctor, and a lab rat to another.  Many cancers, like my sons, can cascade into other issues, and so there is an army of specialists who are either always present at the hospital, or make regular visits to the hospital to see patients.  For example, my son saw physical therapy, occupational therapy, speech and swallowing therapy, and an optometrist, all on multiple occasions.  All at no cost to our family.  As my son’s disease has progressed, it’s taken a toll on his body, and he’s needed assistive devices, such as a wheelchair, and a leg brace.  Saint Jude has provided those as well.  He’s also been provided both hospice care in partnership with Kids Path here in Charlotte , and regular checkups through the St. Jude Affiliate clinic, also here in Charlotte, which is a partnership with Novant health Presbyterian hospital just a few blocks away.  In fact, that’s where our St. Jude journey began.  Asher’s biopsy was performed there, and it was all under the St. Jude umbrella.  I haven’t seen a bill for it, and frankly, I wouldn’t want to.  It is, after all, brain surgery.
+        </h5>
+
+      <p class="text-grey">I want to further highlight that Saint Jude is also a research facility, sometimes reaching outside the scope of cancer treatment.   I’ll hit a couple of these:   The Pediatric Cancer Genome project is a partnership with Washington University, to sequence the genomes of cancerous cells, compare them with normal genomes, pinpoint the mutation, and hopefully develop future treatment plans accordingly.  When we were getting started with treatment, our doctors were quick to point out that cancer treatment isn’t what it was 20-30 years ago, where everyone gets the same heavy-hitting chemo treatment.  It’s very much tailored to the patient now, and genetics are an ever-increasing component of that.  They also do cancer survivor research, especially with their own patients.  We met a woman in her mid-50s while were their who had a patient wrist-band on.  She was there for a checkup.  Can you imagine a future where the number of adults who walk the halls of St. Jude continues to grow, because their stories are like hers? </p>
+    </div>
+  </div>
+</div>
+
+<div class="container black center opacity padding-64">
+    <h1 class="margin xlarge">Quote of the day: Give While You Can</h1>
+</div>
+
+<!-- Footer -->
+<footer class="container padding-64 center opacity">  
+  <div class="xlarge padding-32">
+</div>
+</footer>
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("show") == -1) {
+    x.className += " show";
+  } else { 
+    x.className = x.className.replace(" show", "");
+  }
+}
+</script>
+
+</body>
+</html>
